@@ -4,28 +4,27 @@ const projetos = [
   {
     titulo: "API Minimal .NET (Interno)",
     descricao:
-      "API para envio e recebimento de faturas entre Unimed com autenticação JWT, Certificado e Swagger.",
+      "API para envio e recebimento de faturas entre Unimed do Brasil, com autenticação JWT, certificado digital e documentação via Swagger. Permite o envio de arquivos JSON e faturas em PDF, além de receber dados em formato DTO, realizar o mapeamento de campos e salvar no banco de dados.",
     link: "https://github.com/seu-usuario/seu-repo",
   },
   {
     titulo: "APP em Kotlin",
     descricao:
-      "Desenvolvimento de um APP para se comunicar com Google Fit e Health, enviando atividades físicas, podendo futuramente integrar com Wearable, e também atividades retroativas.",
+      "Aplicativo desenvolvido em Kotlin para integração com Google Fit e Health, permitindo o envio de atividades físicas. Futuramente, será possível integrar com dispositivos Wearables e registrar atividades retroativas.",
     link: "https://github.com/seu-usuario/seu-repo",
   },
   {
-    titulo: "Api Encapsulada do Docusign",
+    titulo: "API Encapsulada do DocuSign",
     descricao:
-      "Integração de API para assinatura eletrônica via DocuSign, com envio de envelopes, templates e callbacks para rastreamento de assinaturas.",
+      "Integração de API para assinatura eletrônica via DocuSign, com envio de envelopes e callbacks para rastreamento de assinaturas. Desenvolvido para uso interno, atendendo demandas da área jurídica.",
     link: "https://github.com/seu-usuario/api-docusign",
   },
   {
     titulo: "Automação do Envio de NF",
     descricao:
-      "Automação do processo de envio de notas fiscais eletrônicas, feito com framework puppeteer e robotjs, uma automação em tela para emissão de mais de 3500 NF mensais.",
+      "Automação do processo de envio de notas fiscais eletrônicas utilizando Puppeteer e RobotJS. Permite a emissão automatizada de mais de 3.500 notas fiscais mensais.",
     link: "https://github.com/seu-usuario/api-docusign",
   },
-  // Adicione mais projetos aqui se desejar
 ];
 
 export default function App() {
@@ -37,7 +36,7 @@ export default function App() {
   return (
     <div className="font-sans bg-gray-100 text-red-800">
       {/* Header */}
-      <header className="bg-slate-800 text-white py-8 text-center shadow-lg">
+      <header className="bg-slate-800 text-red-800 py-8 text-center shadow-lg">
         <h1 className="text-4xl font-bold">Rui Poletti</h1>
         <p className="mt-2 text-lg">
           Desenvolvedor Web - .NET | PL/SQL | React | Kotlin | Java | C#
@@ -50,7 +49,8 @@ export default function App() {
         <p>
           Sou Analista de Sistemas com experiência em .NET, React, Kotlin, Java e
           PL/SQL. Tenho vivência em DevOps, CI/CD e arquiteturas modernas como
-          Minimal API e também MVC.
+          Minimal API e também MVC. Atualmente estou com foco em .NET e PL/SQL. 
+          Porém sigo estudando e aprendendo novas tecnologias e frameworks.
         </p>
       </section>
 
@@ -77,14 +77,14 @@ export default function App() {
                 >
                   <h3 className="text-xl font-semibold mb-2">{proj.titulo}</h3>
                   <p className="mb-3">{proj.descricao}</p>
-                  <a
+                  {/* <a
                     href={proj.link}
                     className="text-sky-600 hover:underline"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    🔗 Ver código
-                  </a>
+                     Ver código
+                  </a> */}
                 </div>
               ))}
             </div>
