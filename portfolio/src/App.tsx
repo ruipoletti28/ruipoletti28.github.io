@@ -49,7 +49,7 @@ export default function App() {
         <p>
           Sou Analista de Sistemas com experiência em .NET, React, Kotlin, Java e
           PL/SQL. Tenho vivência em DevOps, CI/CD e arquiteturas modernas como
-          Minimal API e também MVC. Atualmente estou com foco em .NET e PL/SQL. 
+          Minimal API e também MVC. Atualmente estou em projetos com foco em .NET e PL/SQL. 
           Porém sigo estudando e aprendendo novas tecnologias e frameworks.
         </p>
       </section>
