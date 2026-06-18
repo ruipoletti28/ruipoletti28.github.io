@@ -1,2 +1,6 @@
-portfolio/package-lock.json
-portfolio/README.md
+# OS / editor noise
+.DS_Store
+Thumbs.db
+
+# Dependencies (the app keeps its own lockfile under portfolio/)
+node_modules
